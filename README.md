@@ -1,2 +1,2 @@
 # yt-shorts-remover
-Remove youtube shorts
+A browser extension to remove shorts from Youtube
