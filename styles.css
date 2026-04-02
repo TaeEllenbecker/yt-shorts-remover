@@ -1,0 +1,10 @@
+/* Hides the Shorts tab in the left sidebar */
+ytd-guide-entry-renderer:has(a[title="Shorts"]),
+ytd-mini-guide-entry-renderer[aria-label="Shorts"] {
+    display: none !important;
+}
+
+/* Hides the "Shorts" shelf on the homepage */
+ytd-rich-shelf-renderer[is-shorts] {
+    display: none !important;
+}

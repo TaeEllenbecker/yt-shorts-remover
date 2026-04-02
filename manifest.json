@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Remove Youtube Shorts",
+  "version": "1.0",
+  "description": "Removes Shorts from the YouTube.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
